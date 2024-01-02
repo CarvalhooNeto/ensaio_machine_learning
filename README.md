@@ -1,4 +1,4 @@
-Contexto
+# Contexto
 
 A empresa Data Money fornece serviços de consultoria de Análise e Ciência de Dados para grandes
 empresas no Brasil e no exterior.
@@ -16,7 +16,7 @@ algoritmos de Classificação, Regressão e Clusterização, a fim de extrair ap
 funcionamento em determinados cenário e conseguir transmitir esse conhecimento para o restante do time.
 
 
-Metodologia
+# Metodologia
 
 Neste ensaio foram utilizados 16 algoritmos de machine learning dividios em classificação, regressão e 
 clusterização. Dentre o treinamento desses algoritmos foram empregnados técnincas de seleção de features, 
@@ -26,24 +26,24 @@ Para os algoritmos de classificação foram adotados as métricas de avaliação
 F1 score. Para os algoritmos de regressão foram utilzados as métrica de R2, MSE, RMSE, MAE e MAPE. Já para os algoritmos
 de clusterização foi utilizada a silhuette score.
 
-Resultados
+# Resultados
 
 Apesar de ter utilizado testes sobre os diferentes datasets, considerei como os melhores resultados os valores obtidos
 através da validação houldout.
 
-Classificação
+### Classificação
 
 Para os algoritmos de clasificação o que obteve o melhor resultado foi a Random Forest com as seguintes métricas:
 
-acurácia: 0.9628084810566563; precisão: 0.9721314451706609, recall: 0.9422789265288165 e F1_score: 0.956972431973549
+#### acurácia: 0.9628084810566563; precisão: 0.9721314451706609, recall: 0.9422789265288165 e F1_score: 0.956972431973549
 
-Regressão
+### Regressão
 
 Para os algortimos de regressão não obtiveram um bom resultado com a validação houldout. Sendo os seus melhores resultados
 obtidos através dos testes com o dataset de treino.
 
-Classificação
+### Clusterização 
 
 O K MEANS foi o algoritmo que obteve o melhor resultado.
-SS: 0.23295918228054466
+#### Silhouette Score: 0.23295918228054466
 
