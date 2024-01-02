@@ -39,8 +39,7 @@ Para os algoritmos de clasificação o que obteve o melhor resultado foi a Rando
 
 ### Regressão
 
-Para os algortimos de regressão não obtiveram um bom resultado com a validação houldout. Sendo os seus melhores resultados
-obtidos através dos testes com o dataset de treino.
+Para os algortimos de regressão não obtiveram um bom resultado com a validação houldout.
 
 ### Clusterização 
 
